@@ -1,7 +1,8 @@
 
 
 import 'package:flutter/material.dart';
-import 'package:subha/pages/start_home_page.dart';
+import 'package:subha/pages/profile_screen.dart';
+
 
 
 void main() {
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-       home: const StartHomePage(),
+       home: const ProfileScreen(),
       debugShowCheckedModeBanner: false,
     );
   }
