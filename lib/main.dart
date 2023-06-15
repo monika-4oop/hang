@@ -1,7 +1,7 @@
 
 
 import 'package:flutter/material.dart';
-import 'package:subha/pages/profile_screen.dart';
+import 'package:subha/pages/start_home_page.dart';
 
 
 
@@ -17,11 +17,15 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      // showSemanticsDebugger: true,
+      // showPerformanceOverlay: true,
+      // debugShowMaterialGrid: true,
+    
       title: 'Flutter Demo',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-       home: const ProfileScreen(),
+       home: const StartHomePage(),
       debugShowCheckedModeBanner: false,
     );
   }
